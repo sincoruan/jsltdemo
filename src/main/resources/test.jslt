@@ -1,0 +1,5 @@
+{
+  "type" : if (.type and .type != "View") .type,
+  "num" : num_func(.num)
+  * : .
+}
